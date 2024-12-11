@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>PopUps</title>
+
+        <script>
+            function f1()
+            {
+                alert("Hello this is alert function")
+            }
+
+            function f2()
+            {
+                var res=prompt("enter yourname ","");
+                alert("name = "+res);
+            }
+
+            function f3()
+            {
+                var res=confirm("Are you Sure...?");
+                alert(res);
+
+            }
+            
+        </script>
+    </head>
+    <body>
+        <button onclick="f1()">Alert</button>
+        <button onclick="f2()">Prompt</button>
+        <button onclick="f3()">Confirm</button>
+    </body>
+</html>

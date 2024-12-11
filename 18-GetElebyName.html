@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>GetElementsByName</title>
+        <script>
+            function f1()
+            {
+                var eles = document.getElementsByName("Course");
+                for (var ele of eles)
+                  {
+                    if(ele.checked)
+                    console.log(ele.value)
+                  }
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Courses</h1>
+        <input type="checkbox" value="JFS" name="Course"/>Java Full Stack<br>
+        <input type="checkbox" value="PFS" name="Course"/>Python Full Stack<br>
+        <input type="checkbox" value="MERNFS" name="Course"/>MERN Full Stack<br>
+        <input type="checkbox" value=".Net" name="Course"/>DotNet<br><br>
+        <button onclick="f1()" >Click Me</button>
+    </body>
+</html>

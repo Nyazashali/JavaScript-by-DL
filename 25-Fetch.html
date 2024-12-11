@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Fetch</title>
+    <script>
+
+        function f1()
+        {
+            fetch("./.text")
+            .then(res=> res.text())
+            .then(txt=> console.log(txt));
+        }
+
+    </script>
+
+</head>
+<body>
+    <button onclick="f1()">Click Me</button>
+</body>
+</html>

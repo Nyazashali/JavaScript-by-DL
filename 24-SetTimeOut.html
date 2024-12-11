@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Set Time Out</title>
+    <script>
+
+        function f1()
+        {
+            console.log("Hello");
+        }
+        setTimeout(f1,5000);
+
+         i=1;
+        function f2()
+        {
+            console.log("Hii", i++)
+        }
+        var obj = setInterval(f2,3000);
+
+        function f3()
+        {
+            clearInterval(obj);
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="f3()">Click Me</button>
+    
+</body>
+</html>

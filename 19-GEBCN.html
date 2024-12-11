@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>Get Elements By Class Name</title>
+    <Script>
+         function f1()
+         {
+            var objs = document.getElementsByClassName("c1");
+            for(var obj of objs)
+         {
+            if(obj.tagName==="H1")
+         {
+            obj.style.color="red" ;
+         }
+         }
+         }
+    </Script>
+</head>
+<body>
+
+    <h1 class="c1">Hi this is H1 tag</h1>
+    <h2 class="c2">Hi this is H1 tag</h2>
+    <h3 class="c3">Hi this is H1 tag</h3>
+    <button onclick="f1()">Click Me</button>    
+</body>
+</html>

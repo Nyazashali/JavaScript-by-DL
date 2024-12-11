@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Array Iterative</title>
+        <script>
+            a=[10,20,30]
+
+            a.forEach(f1);
+
+            function f1(v,i,a)
+            {
+                console.log(v);
+
+            }
+
+            a.forEach(function(v){
+                console.log(v);
+            }) 
+            
+            res=a.map(f2);
+            function f2(v,i,a)
+            {
+                return v*10;
+            }
+            console.log(res);
+
+
+            res=a.filter(f3);
+            {
+                return v >=20;
+            }
+            console.log(res);
+
+           
+
+
+        </script>
+
+
+    </head>
+    <body>
+
+    </body>
+</html>

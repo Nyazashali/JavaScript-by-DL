@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Object</title>
+
+        <script>
+
+            obj = {city1:"Hyderabad", city2:"bangalore", city3:"mumbai", 55:"pune"}
+            console.log(obj.city1)
+            console.log(obj.city2)
+            console.log(obj.city3)
+
+            console.log(obj["city1"])
+            console.log(obj["city2"])
+            console.log(obj["city3"])
+            console.log(obj[55])
+
+            for(k in obj)
+            console.log("- ",obj[k])
+
+            // 1st it will take numerical value then alphabet values
+        </script>
+    </head>
+</html>
