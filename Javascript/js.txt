@@ -1,0 +1,5 @@
+the sole purpose of the variables is to store the data in the memory
+variables in javascript are containers which hold re-usable data (they are units of data)
+
+var variablename = "Welcome to variables";
+console.log("variablename");
