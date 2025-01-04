@@ -1,5 +1,17 @@
+//variables//
 the sole purpose of the variables is to store the data in the memory
 variables in javascript are containers which hold re-usable data (they are units of data)
 
 var variablename = "Welcome to variables";
 console.log("variablename");
+
+//Data Types//
+Primitive datarypes
+1> Strings - it can be any textual value.
+2> Numbers - any decimal& whole numbers
+3> Booleans - true & false
+4> Null - null
+5> Undefined - we dont have the variable & value
+
+Complex datatypes
+1> Objects - It is the most important data-type and forms the building the blocks for  modern javascript.
