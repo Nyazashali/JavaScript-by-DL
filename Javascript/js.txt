@@ -8,7 +8,7 @@ console.log("variablename");
 //Data Types//
 Primitive datarypes
 1> Strings - it can be any textual value.
-2> Numbers - any decimal& whole numbers
+2> Numbers - any decimal & whole numbers
 3> Booleans - true & false
 4> Null - null
 5> Undefined - we dont have the variable & value
