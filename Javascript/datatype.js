@@ -48,12 +48,13 @@ console.log(age > 18);
 //Null
 // null type has only one value and i.e, Null. it does not belong to any of the datatypes described above.
 // it forms a seperate type of its own which contains only null value.
+// Null is a assigned value, it can be assigned to a variable as a representation of no value.
  let age1 = null;
- console.log(age1);
+ console.log( typeof age1);  // typeof=object
 
 
 //Undefined
 // the meaning of undefined is value is not assigned. When a variable is declared but not assigned the value then it is undefined.
 
 let X;
-console.log(X);
+console.log(X); // typeof=undefined
