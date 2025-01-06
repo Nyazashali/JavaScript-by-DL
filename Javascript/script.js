@@ -1,6 +1,7 @@
 let variableName = 'Welcome to javascript';
 variableName = 'Hello';
 
+// let is prefered way of creating variables in modern javascript(ES6)
 console.log(variableName);
 
 //there are 3 different ways to declare a variable
@@ -8,7 +9,7 @@ console.log(variableName);
 //"variableName" (a string literal) to the console.log function. This will print the literal text "variableName" to the console, 
 // not the value stored in the variableName variable.
 
-//To print the value of the variable variableName,
+//To print the value of the variableName,
 //  you should remove the quotes around the variable name
 
 //let is used to reassin the value 

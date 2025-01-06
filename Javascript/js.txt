@@ -14,4 +14,4 @@ Primitive datarypes
 5> Undefined - we dont have the variable & value
 
 Complex datatypes
-1> Objects - It is the most important data-type and forms the building the blocks for  modern javascript.
+1> Objects - It is the most important data-type and forms the building the blocks for modern javascript.
