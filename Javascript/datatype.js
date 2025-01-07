@@ -58,3 +58,30 @@ console.log(age > 18);
 
 let X;
 console.log(X); // typeof=undefined
+
+/*Complex datatypes
+ 1> Objects - It is the most important data type an it forms the building block of modern javascript.
+ all primitive datatypes can contain only one value at a time, but whereas objects can contain more data and more complex entities.
+ it used to group the variables */ //******* */
+ 
+//objects
+const person = {
+    name: 'Ali',
+    age: 25, 
+}
+console.log(person);  // typeof=object
+
+// Dot Notation is used to show specific key value
+console.log(person.name);  // typeof=string  #it is a primitive datatype of a string
+
+//Array
+const arr = [1, 2, 3, 4];
+console.log(arr);  
+
+const date = new Date();
+console.log(date); //shows current time
+
+//There are 2 types of programming languages
+/*statically typed : languages where each variables and expression type is already known at compile Time.
+ So, Once a variable is declared to be a certain type it cannot hold values of any other datatype. Ex:- C, C++, Java
+Dynamically typed can receive different data types over time (we can change the value of datatype overtime)*/
