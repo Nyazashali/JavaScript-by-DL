@@ -29,8 +29,15 @@ console.log(string);
  const string1 = 'Hello'; 
  const number = 5;
 
- const result1 = string1 / SVGAnimatedNumber ; //output NaN : Not a Number 
+ const result1 = string1 / number ; //output NaN : Not a Number 
  console.log(result1);
+
+ //2nd Example
+ const  string2 = 'hii';
+ const number1 = 10;
+ 
+ const result2 = string2 / number1;
+ console.log(result2);
 
  //booleans 
 //  it can represent a logial entity and can have 2 values it can be have true & false.

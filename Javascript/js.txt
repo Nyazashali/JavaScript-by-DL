@@ -6,7 +6,7 @@ var variablename = "Welcome to variables";
 console.log("variablename");
 
 //Data Types//
-Primitive datarypes
+Primitive datatypes
 1> Strings - it can be any textual value.
 2> Numbers - any decimal & whole numbers
 3> Booleans - true & false
