@@ -71,6 +71,7 @@ console.log(X); // typeof=undefined
  all primitive datatypes can contain only one value at a time, but whereas objects can contain more data and more complex entities.
  it used to group the variables */ //******* */
  
+ 
 //objects
 const person = {
     name: 'Ali',
