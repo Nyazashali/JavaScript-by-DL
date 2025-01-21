@@ -93,3 +93,12 @@ console.log(date); //shows current time
 /*statically typed : languages where each variables and expression type is already known at compile Time.
  So, Once a variable is declared to be a certain type it cannot hold values of any other datatype. Ex:- C, C++, Java
 Dynamically typed can receive different data types over time (we can change the value of datatype overtime)*/
+
+// Javascript is Dynamically typed 
+
+//comparison Operators => true/false
+
+const a = 15;
+const b = 15;
+
+console.log(a != b);
