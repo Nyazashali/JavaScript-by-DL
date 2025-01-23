@@ -62,7 +62,7 @@ console.log(age > 18);
 // it forms a seperate type of its own which contains only null value.
 // Null is a assigned value, it can be assigned to a variable as a representation of no value.
  let age1 = null;
- console.log( typeof age1);  // typeof=object
+ console.log(age1);  // typeof=object
 
 
 //Undefined
