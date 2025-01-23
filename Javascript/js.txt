@@ -13,5 +13,5 @@ Primitive datatypes
 4> Null - null
 5> Undefined - we dont have the variable & value
 
-Complex datatypes
+Non-Primitive datatypes
 1> Objects - It is the most important data-type and forms the building the blocks for modern javascript.

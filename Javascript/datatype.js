@@ -26,6 +26,11 @@ console.log(string);
  let result = firstNumber * secondNumber ; //output 45 
  console.log(result);
 
+ let Z = 22;
+ let Y = 10;
+ let R = Z / Y ;
+ console.log(R);
+
  const string1 = 'Hello'; 
  const number = 5;
 
